@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: linear-gradient(rgba(159,159,159,0.8),  rgba(159,159,159,0.8)), url('../img/background_header.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 800px;
+    position: relative;
+}
+
+main {
+
+}
+
+section #stack {
+
+}
+
+section #career {
+
+}
+
+section #project {
+    
+}
+
+section #contact {
+
+}
+
+footer {
+    
+}
+
+h1 {
+    font-family: 'Pattaya', 'Sirin Stencil', 'Poppins', 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    color: #FFF;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    font-family: 'Sirin Stencil', 'Pattaya', 'Poppins', 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3 {
+    padding-top: 2rem;
+    font-size: 2.2rem;
+}
+
+h4 {
+    font-family: 'Pattaya', 'Sirin Stencil', 'Poppins', 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+/* Remove default style for links */
+a, a:visited, a:focus, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+/********************** HEADER **********************/
+/* Sticky top (like navbar) */
+.social-links {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 10px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    display: inline-block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 0 45px;
+    color: rgb(39, 39, 39);
+    transition: all .4s;
+}
+
+.social-links li:hover {
+    color: #EEE;
+    transform: rotate(20deg);
+}
+
+.see-more {
+    font-size: 1.4rem;
+    color: #FFF;
+    position: absolute;
+    bottom: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.see-more-icon {
+    font-size: 1.8rem;
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+/********************** MAIN **********************/
+
+
+/********************** STACK **********************/
+.undraw-coding {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    padding-top: 3rem;
+}
+
+.description {
+    background: linear-gradient(#6C63FF, #9590E5);
+    color: #FFF;
+    text-align: center;
+}
+
+.description-text {
+    font-size: 1.1rem;
+    padding: 2rem 0;
+    margin: 0 auto;
+    max-width: 40vw;
+    line-height: 1.8;
+    letter-spacing: .2px;
+}
+
+.description-text:last-child {
+    padding-bottom: 10rem;
+}
+
+.container {
+    border: 1px solid #CECECE;
+    border-radius: 8px;
+    width: 70vw;
+    margin: -4rem auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFF;
+}
+
+article {
+    width: 34%;
+    text-align: center;
+}
+
+article:first-child {
+    border-right: 1px solid #CECECE;
+}
+
+article:nth-child(3) {
+    border-left: 1px solid #CECECE;
+}
+
+.box-img {
+    height: 200px;
+}
+
+.front-end-icon, .back-end-icon, .miscellaneous-icon {
+    padding-top: 2rem;
+}
+
+.front-end-icon {
+    height: 150px;
+}
+
+.back-end-icon {
+    height: 175px;
+}
+
+.miscellaneous-icon {
+    height: 170px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.list-front-end, .list-back-end, .list-miscellaneous {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-html, .logo-css, .logo-js, .logo-php, .logo-ruby, .logo-symfony, .logo-linux {
+    height: 100px;
+}
+
+.list-tech li {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.list-tech li:first-child {
+    margin-top: 4rem;
+}
+
+.dotted {
+    text-decoration: underline dotted;
+    cursor: help;
+}
+
+.stack-in-progress {
+    width: 70%;
+    margin: 0 auto;
+    font-style: italic;
+}
