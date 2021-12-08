@@ -23,8 +23,12 @@
 <a href="https://julien-ribeaucourt.fr/cv.html" target="_blank">CV Live</a>
 
 
+<details>
+<summary>Aperçu CV</summary>
+  
 ![CV](https://i.ibb.co/QnqQKMf/Screenshot-2021-12-08-at-17-13-57-CV-Julien-Ribeaucourt.png "Apercu")
 
+</details>
 
 ## Informations
 
