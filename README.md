@@ -33,7 +33,7 @@
 ## Informations
 
 Réalisation d'un portfolio ainsi que d'un CV.
-Aucune librairie ni framwork.
+Aucune librairie ni framework.
 
 Placement flex sur le portfolio, grid sur le CV.
 
