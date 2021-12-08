@@ -11,6 +11,12 @@
 
 ![Portfolio](https://i.ibb.co/17gFrBW/Screenshot-2021-12-08-at-17-13-33-Portfolio-Julien-Ribeaucourt.png "Apercu")
 
+<details>
+<summary>Click to expand</summary>
+
+whatever
+
+</details>
 
 ### CV
 
